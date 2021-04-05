@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tabla</title>
+        <style>
+            table{
+                width: 900px;
+                margin-top: 30px;
+            }
+            th{
+                text-align: left;
+                background-color: #55d6aa;
+            }
+            td{
+                background-color: aqua;
+            }
+            th, td {
+                padding:5px;
+            }
+            table, th, td{
+                border:1px solid #000;
+                border-collapse: collapse;
+                font-family: 'Proxima-nova',sans-serif;
+            }
+            header{
+                background-color: #55d6aa;
+            }
+            header div{
+                overflow: hidden;
+                padding:20px;
+            }
+            header nav{
+                float:right;
+            }
+            header ul{
+                margin:0;
+                padding:0;
+                list-style: none;
+            }
+            header li{
+                float:left;
+                margin-left: 35px;
+                margin-right: 35px;
+            }
+            header a{
+                color: 444;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="Guia 1.html">Formulario</a></li>
+                        <li><a href="Tabla.html">Tabla</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1 style="margin-left: 50px;">DATOS REGISTRADOS</h1>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Telefono</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Carrera</th>
+                <th>Año de ingreso</th>
+            </tr>
+            <tr>
+                <td>Jose Gutierrez</td>
+                <td>j.gutierrez09@ufromail.cl</td>
+                <td>85656412</td>
+                <td>24-05-1997</td>
+                <td>Ingenieria Informatica</td>
+                <td>2018</td>
+            </tr>
+            
+        </table>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Formulario</title>
+            <style>
+                h1{
+                    font-family: 'Proxima-nova',sans-serif;
+                    font-weight: bold;
+                }
+                label {
+                    font-family: 'Proxima-nova',sans-serif;
+                }
+                header{
+                    background-color: #55d6aa;
+                }
+                header div{
+                    overflow: hidden;
+                    padding:20px;
+                }
+                header nav{
+                    float:right;
+                }
+                header ul{
+                    margin:0;
+                    padding:0;
+                    list-style: none;
+                }
+                header li{
+                    float:left;
+                    margin-left: 35px;
+                    margin-right: 35px;
+                }
+                header a{
+                    color: 444;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                }
+                form{
+                    margin-left: 70px;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="Guia 1.html">Formulario</a></li>
+                            <li><a href="Tabla.html">Tabla</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <h1 style="margin-left: 50px;">FORMULARIO</h1>
+            <form action="/Tabla.html" method="POST">
+                <label for="fnombre">Nombre:</label><br>
+                <input type="text" id="fnombre" name="fnombre" placeholder="Ingrese su nombre aquí"><br>
+                <br>
+                <label for="fcontrasena">Contraseña:</label><br>
+                <input type="password" id="fcontrasena" name="fcontrasena" placeholder="Ingrese su contraseña aquí"><br>
+                <br>
+                <label for="fcorreo">Email:</label><br>
+                <input type="text" id="fcorreo" name="fcorreo" placeholder="Ingrese su correo aquí"><br>
+                <br>
+                <label for="ftelefono">Telefono:</label><br>
+                <input type="number" id="ftelefono" name="ftelefono" placeholder="Ingrese su telefono aquí"><br>
+                <br>
+                <label for="fnacimiento">Fecha de Nacimiento:</label><br>
+                <input type="date" id="fnaciminto" name="fnacimiento" placeholder="Ingrese su fecha de nacimiento aquí"><br>
+                <br>
+                <label for="fcarrera">Carrera:</label><br>
+                <select id="fcarrera" name="fcarrera">
+                    <option value="IngInf">Ingenieria Informatica</option>
+                    <option value="IngCInf">Ingenieria Civil Informatica</option>
+                    <option value="IngCIMInf">Ingenieria Civil Industrial Mencion Informatica</option>
+                </select><br>
+                <br>
+                <label for="fingreso">Año de ingreso:</label><br>
+                <input type="number" id="fingreso" name="fingreso" placeholder="Ingrese el año aquí"><br>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </body>
+    </html>
