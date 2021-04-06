@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+	--primary-dark-cyan: hsl(185, 75%, 39%);
+	--primary-very-dark-blue: hsl(229, 23%, 23%);
+	--primary-dark-blue: hsl(227, 10%, 46%);
+	--dark_gray: hsl(0, 0%, 91%);
+}
+
+.background{
+    background-color: var(--primary-dark-cyan);
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    height: 47vh;
+    align-items: center;
+    
+    background: url(../images/bg-pattern-card.svg) repeat-x top, var(--dark_gray) no-repeat center bottom;
+    border-radius: 25px;
+}
+
+.name{
+    font-family: 'Kumbh Sans',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.victor{
+    border-radius: 50%;
+    border: 5px solid var(--dark_gray);
+    margin-top: 20%;
+}
+
+.tag{
+    font-weight: lighter;
+    color: var(--primary-very-dark-blue);
+    margin-top: 10%;
+    size: 1px;
+}
+
+.line{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 2px;
+    background-color: lightgray;
+}
+
+.container-row{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex:auto;
+    flex-direction: row;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-row-two{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-size: 18px;
+    color: var(--primary-very-dark-blue);
+    padding-bottom: 50px;
+}
+
+.flex-item-f{
+    padding-left: 65px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.flex-item-s{
+    padding-left: 40px;
+    padding-right: 35px;
+}
