@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.background{
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 36%;
+    margin-right: 36%;
+}
+
+.main-container{
+    align-self: center;
+    background-color: rgb(34, 39, 66);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kumbh Sans',sans-serif;
+    height:57vh;
+    border-radius: 20px;
+    font-size: 30px;
+    color:aquamarine;
+}
+
+.upper-menu{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin:2px;
+    padding: 5%;
+}
+
+.upper-icon{
+    margin-bottom: 7px;
+}
+
+.lower-menu{
+    background-color: rgb(87, 87, 136);
+    border-radius: 20px;
+    height: 35vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 5px;
+    text-align:center;
+}
+
+.icon-C{
+    grid-row: 4;
+    grid-column: 1;
+}
+.icon-0{
+    grid-row:4;
+    grid-column:2;
+}
+.icon-1{
+    grid-row:3;
+    grid-column:1;
+}
+.icon-2{
+    grid-row:3;
+    grid-column:2;
+}
+.icon-3{
+    grid-row:3;
+    grid-column:3;
+}
+.icon-4{
+    grid-row:2;
+    grid-column:1;
+}
+.icon-5{
+    grid-row:2;
+    grid-column:2;
+}
+.icon-6{
+    grid-row:2;
+    grid-column:3;
+}
+.icon-7{
+    grid-row:1;
+    grid-column:1;
+}
+.icon-8{
+    grid-row:1;
+    grid-column:2;
+}
+.icon-9{
+    grid-row:1;
+    grid-column:3;
+}
+.icon-dot{
+    grid-row:4;
+    grid-column:3;
+}
+.icon-suma{
+    grid-row:4;
+    grid-column:4;
+    background-color: rgb(114, 113, 149);
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    padding-top: 5%;
+}
+.icon-resta{
+    grid-row:3;
+    grid-column:4;
+    background-color: rgb(114, 113, 149);
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    padding-top: 5%;
+}
+.icon-division{
+    grid-row:1;
+    grid-column:4;
+    background-color: rgb(114, 113, 149);
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    padding-top: 5%;
+}
+.icon-multiplicacion{
+    grid-row:2;
+    grid-column:4;
+    background-color: rgb(114, 113, 149);
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    padding-top: 5%;
+}
+.icon-negative{
+    grid-row: 1;
+    grid-column: 5;
+    background-color: rgb(114, 113, 149);
+    border-radius: 50%;
+    width: 50px;
+    height: 33px;
+    padding-top: 13%;
+    font-size: large;
+}
+.icon-equals{
+    grid-row: 3 / 5;
+    grid-column: 5;
+    background-color: rgb(42, 212, 184);
+    color: rgb(114, 113, 149);
+    padding-top: 50%;
+    border-radius: 30px;
+    width: 65px;
+}
+.delete{
+    height: 28px;
+    width: 28px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 50%;
+}
