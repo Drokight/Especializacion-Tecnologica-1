@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/Calculadora.css">
+    <script type="text/javascript" src="js/Calculadora.js"></script>
+</head>
+<body class="body">
+    <div class="contenedor-flex">
+        <h1>Calculadora simple</h1>
+        Primer número <input type="number" name="a" id="a"><br>
+        Segundo número <input type="number" name="b" id="b"><br>
+        <button onclick="suma()">Suma</button>
+        <button onclick="resta()">Resta</button>
+        <button onclick="multiplicacion()">Multiplicación</button>
+        <button onclick="division()">División</button>
+        <p>El resultado es:</p>
+        <span id="resultado"></span>
+        <span class="error" id="error"></span>
+    </div>
+</body>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.contenedor-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+body{
+    background-color: rgb(194, 241, 225);
+    font-family: 'Kumbh Sans',sans-serif;
+}
+
+button{
+    font-family: 'Kumbh Sans',sans-serif;
+    padding: 3px;
+    width: 100px;
+    margin-bottom: 3px;
+}
+
+.error{
+    color:red;
+}
