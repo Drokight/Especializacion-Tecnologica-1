@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-weight: bold;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom right, rgb(177, 56, 56),rgb(41, 39, 39));
+}
+
+.grid-calculadora{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: minmax(120px,auto) repeat(4,100px);
+}
+
+.grid-calculadora > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255,255,255,.75);
+}
+
+.grid-calculadora > button:hover{
+    background-color: rgba(255,255,255,.90);
+}
+
+.resultado{
+    grid-row: span 2;
+}
+
+.pantalla{
+    grid-column: 1/-1;
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.pantalla .calculo-guardado{
+    color: rgba(255,255,255,.75);
+    font-size: 1.5rem;
+}
+
+.pantalla .numero-activo{
+    color: white;
+    font-size: 2.5rem;
+}
